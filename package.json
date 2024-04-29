@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "express": "4.19.2",
+    "nodemon": "3.1.0"
+  },
+  "dependencies": {
+    "@sequelize/sqlite3": "^7.0.0-alpha.40",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "libsql-client": "^0.6.3",
+    "mysql2": "^3.9.7",
+    "pg": "8.11.5",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
